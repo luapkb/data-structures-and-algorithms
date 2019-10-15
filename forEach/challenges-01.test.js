@@ -62,9 +62,11 @@ arr.pop(value)
 };
 
 const removeElements = (arr, callback) => {
-  // Solution code here...
+  for (let i = 0; i < arr.length; i++){
+    callback([i]);
+  }
 };
-
+return callback;
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
