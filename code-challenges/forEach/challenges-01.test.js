@@ -65,8 +65,8 @@ const removeElements = (arr, callback) => {
   for (let i = 0; i < arr.length; i++){
     callback([i]);
   }
+  return callback;
 };
-return callback;
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
